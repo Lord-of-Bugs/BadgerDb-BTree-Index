@@ -1,0 +1,44 @@
+CSE 132C Project 2 Spring 2023
+Language Model Usage Statement 
+
+First Name: Yunfan
+Last Name: Long
+Student ID: A16665173
+
+First Name: Muchan 
+Last Name: Li
+Student ID: A15887258
+
+Did you use any LLM-based tools such as GitHub's Copilot or ChatGPT during this project?
+Yes
+
+Tools that you used (enter N/A if none):
+ChatGPT, VSCode C++ Plugins
+
+Provide description of how you used it\them:
+We used the plugins to help us autocomplete some portions of the code, in particular
+quickly navigating class methods and attributes. We used ChatGPT to help us understand
+some of the concepts and syntax mistakes that we found confusing, such as generic member templates. 
+Again, as we are not very familiar with C++, We also ask ChatGPT to generate some
+code implementation by giving specific instructions with detailed logic based on our understanding 
+of the project statement. This does saves us from the trouble of debugging a great deal of syntax
+errors, but trapped us with other troubles: the code generated is very buggy and error prone.
+As a result, we have to debug from scratch--primarily chasing the pointers and memory leaks--which, 
+while painful, greatly reinforced our understanding to the structure of buffer manager.
+Also, we used GPT to help us auto-generate some portions of the Design report because we were short
+on time.
+
+Did you find the tool helpful?
+The plugins made code-writing super convenient and ChatGPT helped us converting our logic into code
+and lifted us over some of the hardest learning humps.
+
+Did using the tool detract from your learning experience in any way?
+At first the tools made the programming feel a lot easier, as they accelerate the speed of 
+writing code by generating raw version of code. However, since we spent 
+most of our time reading the documentations and debugging, we were still able 
+to formulate solid understandings about the project's objectives and details. In particular,
+through chasing the pointers and errors using the built-in GDB, we gained a deep level of
+realization of the mechanisms of the B+-Tree Index and how the recursive call stacks are 
+helping us getting the job done, while of course, still leaving behind a few notable mistakes
+that we have to push off to future work because of our lack of programming maturity in C++.
+
