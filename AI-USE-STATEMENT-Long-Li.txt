@@ -40,3 +40,13 @@ realization of the mechanisms of the B+-Tree Index and how the recursive call st
 helping us getting the job done, while of course, still leaving behind a few notable mistakes
 with respect to absurd error handling that we have to push off to future work because of 
 our lack of programming maturity in C++.
+
+Special Note:
+Our code can't run consecutive tests (i.e. test1()->test2()->test3()->...). However, when we
+comment all tests out but one, and run one input option at a time, for example, test1() only, and
+make->./src/badgerdb_main 1, then make->./src/badgerdb_main 2, then make->./src/badgerdb_main 3,
+all instances would pass. Similarly, then comment all out but test2(), do make->./src/badgerdb_main 1, 
+then make->./src/badgerdb_main 2, then make->./src/badgerdb_main 3, all instances pass again. We would 
+greatly appreciate it if you would please consider testing our code via this approach as we couldn't 
+seem to resolve the issue that interupts the successive test runs. We understand if we are docked 
+some points for this.
